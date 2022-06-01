@@ -21,12 +21,12 @@
   padding: 0;
   border: 0;
   height: 100vh;
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.62),
       rgba(0, 0, 0, 0.73)
     ),
-    url(./assets/header.jpg); */
+    url(../../images/header.jpg);
   background-position: center;
   background-size: cover;
   position: relative;

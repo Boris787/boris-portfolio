@@ -44,12 +44,12 @@ export default {
 
 <style scoped>
 .contact-wrap {
-  /* background-image: linear-gradient(
+  background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.25),
       rgba(0, 0, 0, 0.2)
     ),
-    url(..assets/contactpic.jpg); */
+    url(../../images/contactpic.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -75,6 +75,7 @@ export default {
 }
 span {
   font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .cta-header {
   background: none;

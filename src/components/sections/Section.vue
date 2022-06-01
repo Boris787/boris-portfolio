@@ -51,16 +51,19 @@ export default {}
   text-transform: uppercase;
   letter-spacing: 5px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .autob-wrap__text {
   font-size: 20px;
   word-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .autob-wrap__exp-text {
   font-size: 22px;
   margin-top: 50px;
   text-transform: uppercase;
   letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .section-wrap__experience {
   display: flex;
@@ -72,12 +75,15 @@ export default {}
   display: flex;
   align-items: center;
   margin: 0 25px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h4 {
   font-size: 20px;
   margin-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 span {
   font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>
