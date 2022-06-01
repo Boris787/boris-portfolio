@@ -12,7 +12,7 @@
     <div class="autob-wrap__exp">
       <div class="autob-wrap__exp__block">
         <h4>HTML →</h4>
-        <span>Tu mu dodje neki tekst</span>
+        <span> Writing clean code</span>
       </div>
       <div class="autob-wrap__exp__block">
         <h4>CSS →</h4>
@@ -34,9 +34,7 @@
   </section>
 </template>
 
-<script>
-export default {}
-</script>
+<script></script>
 
 <style scoped>
 .autob-wrap {
@@ -54,6 +52,7 @@ export default {}
   font-family: Arial, Helvetica, sans-serif;
 }
 .autob-wrap__text {
+  display: flex;
   font-size: 20px;
   word-spacing: 2px;
   font-family: Arial, Helvetica, sans-serif;
@@ -65,7 +64,7 @@ export default {}
   letter-spacing: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.section-wrap__experience {
+.autob-wrap__experience {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

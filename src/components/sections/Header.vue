@@ -61,5 +61,6 @@ span {
   font-size: 15px;
   margin-right: 5px;
   letter-spacing: 5px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>

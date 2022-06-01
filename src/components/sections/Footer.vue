@@ -31,5 +31,7 @@ h3 {
   font-weight: 300;
   margin: 0;
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.5);
 }
 </style>

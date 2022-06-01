@@ -15,7 +15,7 @@
         id="contactCta"
         @click="openModal"
       >
-        It's free, get in touch
+        Contact me!
       </button>
     </div>
 
