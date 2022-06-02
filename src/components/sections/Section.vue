@@ -49,40 +49,39 @@
   text-transform: uppercase;
   letter-spacing: 5px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .autob-wrap__text {
   display: flex;
   font-size: 20px;
   word-spacing: 2px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .autob-wrap__exp-text {
   font-size: 22px;
   margin-top: 50px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-family: Arial, Helvetica, sans-serif;
 }
-.autob-wrap__experience {
+.autob-wrap__exp {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
 }
 .autob-wrap__exp__block {
   display: flex;
   align-items: center;
   margin: 0 25px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 h4 {
-  font-size: 20px;
-  margin-right: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin-right: 20px;
+  color: rgba(148, 86, 35, 0.89);
+}
+h3 {
+  color: rgba(148, 86, 35, 0.89);
 }
 span {
-  font-size: 17px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 </style>

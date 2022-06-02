@@ -6,4 +6,8 @@
 
 <script></script>
 
-<style lang="scss"></style>
+<style lang="scss">
+#app {
+  font-family: "Roboto Slab", serif;
+}
+</style>

@@ -85,11 +85,14 @@ textarea {
 .send-btn {
   width: 100px;
   border: none;
-  background: #000;
+  background: rgba(180, 103, 40, 0.89);
   color: #fff;
   font-size: 16px;
   padding: 6px 0;
   border-radius: 50px;
   cursor: pointer;
+}
+span {
+  color: rgba(180, 103, 40, 0.89);
 }
 </style>

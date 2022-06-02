@@ -71,11 +71,10 @@ export default {
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 10px;
 }
 span {
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
 }
 .cta-header {
   background: none;

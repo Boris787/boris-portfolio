@@ -44,7 +44,7 @@
 h3 {
   font-size: 22px;
   font-weight: lighter;
-  letter-spacing: 8px;
+  letter-spacing: 10px;
   color: #999999;
 }
 h1 {
@@ -59,8 +59,7 @@ h1 {
 }
 span {
   font-size: 15px;
-  margin-right: 5px;
-  letter-spacing: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 6px;
+  letter-spacing: 10px;
 }
 </style>
