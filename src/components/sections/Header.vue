@@ -54,12 +54,12 @@ h3 {
 }
 h1 {
   font-size: 45px;
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   color: #999999;
 }
 span {
   font-size: 15px;
   margin-right: 6px;
-  letter-spacing: 10px;
+  letter-spacing: 3px;
 }
 </style>

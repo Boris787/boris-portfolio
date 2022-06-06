@@ -45,7 +45,7 @@
   margin-bottom: 50px;
   &__text {
     display: flex;
-    font-size: 20px;
+    font-size: 18px;
     word-spacing: 2px;
     text-align: center;
   }
@@ -58,10 +58,10 @@
     &__block {
       display: flex;
       align-items: center;
-      margin: 0 25px;
+      margin: 0 50px;
     }
     &__decsr {
-      font-size: 22px;
+      font-size: 20px;
       margin-top: 50px;
       text-transform: uppercase;
       letter-spacing: 5px;
@@ -69,13 +69,13 @@
   }
 }
 .generic-header {
-  font-size: 26px;
+  font-size: 25px;
   text-transform: uppercase;
   letter-spacing: 5px;
   text-align: center;
 }
 h4 {
-  font-size: 25px;
+  font-size: 22px;
   margin-right: 20px;
   color: rgba(148, 86, 35, 0.89);
 }

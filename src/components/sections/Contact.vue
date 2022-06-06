@@ -67,7 +67,7 @@ export default {
 }
 .section-header {
   color: #fff;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 300;
   text-align: center;
   text-transform: uppercase;
@@ -79,7 +79,7 @@ export default {
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
   padding: 9px 35px;
   letter-spacing: 2px;
