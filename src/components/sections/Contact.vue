@@ -42,7 +42,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .contact-wrap {
   background-image: linear-gradient(
       to bottom,
@@ -55,15 +55,15 @@ export default {
   position: relative;
   min-height: 60vh;
   z-index: 2;
-}
-.contact-wrap__text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .section-header {
   color: #fff;
@@ -72,9 +72,6 @@ export default {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 10px;
-}
-span {
-  font-weight: bold;
 }
 .cta-header {
   background: none;
@@ -89,5 +86,8 @@ span {
 }
 a {
   color: #fff;
+}
+span {
+  font-weight: bold;
 }
 </style>

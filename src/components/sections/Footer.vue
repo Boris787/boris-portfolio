@@ -10,7 +10,7 @@
 
 <script></script>
 
-<style scoped>
+<style scoped lang="scss">
 .footer {
   background: linear-gradient(
     to bottom,
@@ -19,14 +19,14 @@
   );
   color: #fff;
   min-height: 25vh;
-}
-.footer__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 25vh;
-  text-align: center;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    text-align: center;
+  }
 }
 h3 {
   font-weight: 300;

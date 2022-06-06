@@ -8,7 +8,7 @@
       to move away from it to a higher position very quickly by progressing,
       learning, practicing.
     </p>
-    <h3 class="autob-wrap__exp-text">EXPERIENCED WITH</h3>
+    <h3 class="autob-wrap__exp__decsr">EXPERIENCED WITH</h3>
     <div class="autob-wrap__exp">
       <div class="autob-wrap__exp__block">
         <h4>HTML →</h4>
@@ -36,43 +36,43 @@
 
 <script></script>
 
-<style scoped>
+<style scoped lang="scss">
 .autob-wrap {
   text-align: center;
   min-height: 50vh;
   margin: 0 50px;
   margin-top: 70px;
   margin-bottom: 50px;
+  &__text {
+    display: flex;
+    font-size: 20px;
+    word-spacing: 2px;
+    text-align: center;
+  }
+  &__exp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    &__block {
+      display: flex;
+      align-items: center;
+      margin: 0 25px;
+    }
+    &__decsr {
+      font-size: 22px;
+      margin-top: 50px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+  }
 }
 .generic-header {
   font-size: 26px;
   text-transform: uppercase;
   letter-spacing: 5px;
   text-align: center;
-}
-.autob-wrap__text {
-  display: flex;
-  font-size: 20px;
-  word-spacing: 2px;
-  text-align: center;
-}
-.autob-wrap__exp-text {
-  font-size: 22px;
-  margin-top: 50px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-.autob-wrap__exp {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
-.autob-wrap__exp__block {
-  display: flex;
-  align-items: center;
-  margin: 0 25px;
 }
 h4 {
   font-size: 25px;

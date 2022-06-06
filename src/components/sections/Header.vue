@@ -15,7 +15,7 @@
 
 <script></script>
 
-<style scoped>
+<style scoped lang="scss">
 .header-wrap {
   margin: 0;
   padding: 0;
@@ -30,16 +30,21 @@
   background-position: center;
   background-size: cover;
   position: relative;
-}
-.header-wrap__container {
-  color: #fff;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
+  &__container {
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    &__content {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+  }
 }
 h3 {
   font-size: 22px;
@@ -51,11 +56,6 @@ h1 {
   font-size: 45px;
   letter-spacing: 15px;
   color: #999999;
-}
-.header-wrap__container__content {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
 }
 span {
   font-size: 15px;
