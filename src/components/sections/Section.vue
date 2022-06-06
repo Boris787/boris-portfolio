@@ -39,9 +39,9 @@
 <style scoped>
 .autob-wrap {
   text-align: center;
-  min-height: 80vh;
+  min-height: 50vh;
   margin: 0 50px;
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 .generic-header {
@@ -54,6 +54,7 @@
   display: flex;
   font-size: 20px;
   word-spacing: 2px;
+  text-align: center;
 }
 .autob-wrap__exp-text {
   font-size: 22px;
