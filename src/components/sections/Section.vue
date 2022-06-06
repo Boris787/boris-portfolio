@@ -20,15 +20,18 @@
       </div>
       <div class="autob-wrap__exp__block">
         <h4>SASS / SCSS →</h4>
-        <span>Tu mu dodje neki tekst</span>
+        <span>Very clean code, and perfect flow</span>
       </div>
       <div class="autob-wrap__exp__block">
         <h4>JavaScript →</h4>
-        <span>Tu mu dodje neki tekst </span>
+        <span>Clear and clean code, with clear functions </span>
       </div>
       <div class="autob-wrap__exp__block">
         <h4>VueJS →</h4>
-        <span>Tu mu dodje neki tekst</span>
+        <span
+          >The whole flow of Vue.js is also perfectly planned and
+          functional</span
+        >
       </div>
     </div>
   </section>
