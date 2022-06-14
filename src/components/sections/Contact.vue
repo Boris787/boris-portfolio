@@ -13,13 +13,13 @@
         type="button"
         class="cta-header"
         id="contactCta"
-        @click="openModal"
+        @click.prevent="toggleModal"
       >
         Contact me!
       </button>
     </div>
 
-    <Modal :showModal="modal" />
+    <Modal v-if="isVisibility" />
   </section>
 </template>
 
@@ -31,12 +31,12 @@ export default {
   },
   data () {
     return {
-      modal: false
+      isVisibility: false
     }
   },
   methods: {
-    openModal () {
-      this.modal = true
+    toggleModal () {
+      this.isVisibility = !this.isVisibility
     }
   }
 }

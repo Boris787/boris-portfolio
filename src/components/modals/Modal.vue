@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-modal" style="border-radius: 10px" v-if="modalOn">
+  <div class="contact-modal" style="border-radius: 10px" v-if="isVisibility">
     <form action="https://formspree.io/f/xeqnnpek" method="POST">
       <div>
         <span>Message</span>
@@ -14,35 +14,26 @@
         <input type="text" placeholder="Email Address" name="Email" />
       </div>
       <div class="contact-modal__input-field">
-        <textarea name="Message" placeholder="Message" rows="10"></textarea>
+        <textarea name="Message" placeholder="Message" rows="5"></textarea>
       </div>
       <input type="submit" value="Submit" class="send-btn" />
-      <button type="button" class="send-btn" @click="closeModal">Close</button>
+      <button type="button" class="send-btn" @click.prevent="closeModal">
+        Close
+      </button>
     </form>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Modal',
-  props: {
-    showModal: {
-      default: false
-    }
-  },
   data () {
     return {
-      modalOn: false
+      isVisibility: true
     }
   },
   methods: {
     closeModal () {
-      this.modalOn = false
-    }
-  },
-  watch: {
-    showModal (val) {
-      this.modalOn = val
+      this.isVisibility = !this.isVisibility
     }
   }
 }
